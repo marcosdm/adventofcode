@@ -1,2 +1,2 @@
-# AdventCode2020
-This is the repository for advent code 2020.
+# AdventCode
+This is the repository for my developments in Advent Code (created by Eric Wastl).
