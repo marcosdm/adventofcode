@@ -1,6 +1,6 @@
 
 # Reading the report
-f = open("e:/Users/Marcos Diaz/Software/Python/Advent_Code/2020/input.txt", "r")
+f = open("e:/Users/Marcos Diaz/Software/GitHub/AdventCode/2020/inputs/Day1_input.txt", "r")
 
 myList = [int(x.rstrip("\n")) for x in f.readlines()]
 

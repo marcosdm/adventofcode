@@ -1,5 +1,5 @@
 # Reading the passwords
-f = open("e:/Users/Marcos Diaz/Software/Python/Advent_Code/2020/Day3_input.txt", "r")
+f = open("e:/Users/Marcos Diaz/Software/GitHub/AdventCode/2020/inputs/Day3_input.txt", "r")
 
 #Create a list of lists
 myList = [list(x.rstrip("\n")) for x in f.readlines()]
