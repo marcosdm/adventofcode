@@ -1,5 +1,9 @@
-# Reading input file
-f = open("e:/Users/Marcos Diaz/Software/GitHub/AdventCode/2020/inputs/Day5_input.txt", "r")
+import os
+script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+rel_path = "inputs/Day5_input.txt"
+abs_file_path = os.path.join(script_dir, rel_path)
+
+f = open(abs_file_path, "r")
 
 identifierList=[]
 

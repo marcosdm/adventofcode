@@ -1,5 +1,9 @@
-# Reading the passwords
-f = open("e:/Users/Marcos Diaz/Software/GitHub/AdventCode/2020/inputs/Day3_input.txt", "r")
+import os
+script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+rel_path = "inputs/Day3_input.txt"
+abs_file_path = os.path.join(script_dir, rel_path)
+
+f = open(abs_file_path, "r")
 
 #Create a list of lists
 myList = [list(x.rstrip("\n")) for x in f.readlines()]
