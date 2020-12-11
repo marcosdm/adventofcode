@@ -1,4 +1,2 @@
-# AdventCode
-This is the repository for my developments in Advent Code (created by Eric Wastl).
-
-More information: https://adventofcode.com/
+# AdventOfCode
+This is the repository for my developments in [Advent of Code link](https://adventofcode.com/) (created by Eric Wastl).
